@@ -7,7 +7,7 @@ object Average {
       BigDecimal(mean).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble
     }
 
-    // Example usage
+
     val num1 = 10
     val num2 = 20
     val mean = average(num1, num2)
